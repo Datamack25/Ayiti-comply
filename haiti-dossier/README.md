@@ -49,3 +49,13 @@ puis ouvrez `http://localhost:8000`.
 ## Avertissement
 
 Ce dossier est un support d'information, mis à jour le 15 octobre 2026. Il ne constitue ni un conseil juridique ni un conseil de voyage : vérifiez les textes et consignes en vigueur auprès des autorités compétentes.
+
+## Version Streamlit (option)
+
+Le dépôt contient aussi `streamlit_app.py` et `requirements.txt` pour déployer la même plateforme sur Streamlit Community Cloud :
+
+- Repository : votre dépôt GitHub
+- Branch : `main`
+- Main file path : `streamlit_app.py`
+
+Le PDF et les CSV fonctionnent de la même manière dans les deux versions.

@@ -20,6 +20,11 @@
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
   function loadCSV(name) {
+    // Version Streamlit : les CSV sont injectés directement dans la page
+    if (window.__CSV_DATA && window.__CSV_DATA[name] != null) {
+      const r = Papa.parse(window.__CSV_DATA[name], { header: true, skipEmptyLines: true });
+      return Promise.resolve(r.data);
+    }
     return new Promise((resolve, reject) => {
       Papa.parse("data/" + name + ".csv", {
         download: true, header: true, skipEmptyLines: true,

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dossier Haïti</title>
+  <meta name="description" content="Dossier pays Haïti : LCB-FT, création d'entreprise, système bancaire, industries et voyage. Export PDF.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <aside class="sidebar" aria-label="Navigation du dossier">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Dossier Haïti</span>
+    </div>
+    <nav>
+      <ul class="toc">
+        <li><a href="#fiche">Fiche pays</a></li>
+        <li><a href="#lcbft">Système LCB-FT</a></li>
+        <li><a href="#entreprise">Créer une entreprise</a></li>
+        <li><a href="#banques">Système bancaire</a></li>
+        <li><a href="#industries">Industries et produits</a></li>
+        <li><a href="#voyage">Voyager en Haïti</a></li>
+        <li><a href="#sources">Sources</a></li>
+      </ul>
+    </nav>
+    <div class="export">
+      <button class="btn btn-primary" id="pdf-all" type="button">Télécharger <span>le dossier en </span>PDF</button>
+      <p class="export-note" id="pdf-status" role="status"></p>
+    </div>
+  </aside>
+
+  <main id="contenu">
+    <header class="hero" id="fiche">
+      <div class="hero-text">
+        <h1 data-text="titre">Dossier Haïti</h1>
+        <p class="lede" data-text="sous_titre"></p>
+        <p class="updated">Mise à jour : <span data-text="mise_a_jour"></span></p>
+      </div>
+      <article class="kyc-card" aria-labelledby="kyc-title">
+        <div class="kyc-head">
+          <h2 id="kyc-title">Fiche signalétique</h2>
+          <span class="stamp">Liste grise GAFI</span>
+        </div>
+        <dl class="kyc-list" id="fiche-pays"></dl>
+      </article>
+    </header>
+
+    <div class="loading" id="loading">Chargement des données…</div>
+    <div class="error" id="error" hidden></div>
+
+    <section class="chapter" id="lcbft" data-section="lcbft">
+      <div class="chapter-head">
+        <h2>Système LCB-FT</h2>
+        <button class="btn btn-ghost pdf-one" data-section="lcbft" type="button">PDF de cette section</button>
+      </div>
+      <p class="intro" data-text="lcbft_intro"></p>
+      <p class="callout" data-text="lcbft_vigilance"></p>
+
+      <h3>Cadre juridique</h3>
+      <ol class="timeline" id="lcbft-cadre"></ol>
+
+      <h3>Acteurs du dispositif</h3>
+      <div class="actors" id="lcbft-acteurs"></div>
+
+      <h3>Plan d'action GAFI restant (juin 2026)</h3>
+      <ol class="action-plan" id="lcbft-plan"></ol>
+
+      <h3>Sanctions internationales visant Haïti</h3>
+      <div class="table-wrap"><table id="lcbft-sanctions"></table></div>
+
+      <h3>Typologies et signaux d'alerte</h3>
+      <div class="filters" id="filtre-risques" aria-label="Filtrer par niveau de risque"></div>
+      <div class="table-wrap"><table id="lcbft-risques"></table></div>
+    </section>
+
+    <section class="chapter" id="entreprise" data-section="entreprise">
+      <div class="chapter-head">
+        <h2>Créer une entreprise de A à Z</h2>
+        <button class="btn btn-ghost pdf-one" data-section="entreprise" type="button">PDF de cette section</button>
+      </div>
+      <p class="intro" data-text="entreprise_intro"></p>
+
+      <h3>Choisir la forme juridique</h3>
+      <div class="table-wrap"><table id="entreprise-formes"></table></div>
+
+      <h3>Les étapes</h3>
+      <ol class="steps" id="entreprise-etapes"></ol>
+
+      <h3>Conseils pratiques</h3>
+      <dl class="tips" id="entreprise-conseils"></dl>
+    </section>
+
+    <section class="chapter" id="banques" data-section="banques">
+      <div class="chapter-head">
+        <h2>Système bancaire</h2>
+        <button class="btn btn-ghost pdf-one" data-section="banques" type="button">PDF de cette section</button>
+      </div>
+      <p class="intro" data-text="banques_intro"></p>
+
+      <div class="figures" id="banques-indicateurs"></div>
+
+      <h3>Institutions</h3>
+      <div class="filters" id="filtre-banques" aria-label="Filtrer par catégorie"></div>
+      <div class="table-wrap"><table id="banques-institutions"></table></div>
+
+      <h3>Paiements et mobile money</h3>
+      <div class="table-wrap"><table id="banques-paiements"></table></div>
+
+      <h3>Enjeux du secteur</h3>
+      <dl class="tips" id="banques-enjeux"></dl>
+    </section>
+
+    <section class="chapter" id="industries" data-section="industries">
+      <div class="chapter-head">
+        <h2>Industries et produits</h2>
+        <button class="btn btn-ghost pdf-one" data-section="industries" type="button">PDF de cette section</button>
+      </div>
+      <p class="intro" data-text="industries_intro"></p>
+
+      <div class="figures" id="industries-commerce"></div>
+
+      <h3>Secteurs</h3>
+      <div class="sectors" id="industries-secteurs"></div>
+
+      <h3>Produits fabriqués et exportés</h3>
+      <div class="filters" id="filtre-produits" aria-label="Filtrer par catégorie"></div>
+      <div class="products" id="industries-produits"></div>
+    </section>
+
+    <section class="chapter" id="voyage" data-section="voyage">
+      <div class="chapter-head">
+        <h2>Voyager en Haïti</h2>
+        <button class="btn btn-ghost pdf-one" data-section="voyage" type="button">PDF de cette section</button>
+      </div>
+      <p class="warning" data-text="voyage_intro"></p>
+
+      <h3>Zones et niveaux de vigilance</h3>
+      <div class="table-wrap"><table id="voyage-alertes"></table></div>
+
+      <h3>Comment arriver</h3>
+      <div class="table-wrap"><table id="voyage-acces"></table></div>
+
+      <h3>Formalités d'entrée</h3>
+      <dl class="tips" id="voyage-formalites"></dl>
+
+      <h3>Santé</h3>
+      <dl class="tips" id="voyage-sante"></dl>
+
+      <h3>Sur place</h3>
+      <dl class="tips" id="voyage-pratique"></dl>
+    </section>
+
+    <section class="chapter" id="sources" data-section="sources">
+      <div class="chapter-head">
+        <h2>Sources</h2>
+      </div>
+      <ol class="sources" id="sources-list"></ol>
+      <p class="disclaimer" data-text="avertissement"></p>
+    </section>
+
+    <footer class="footer">
+      <p>Les données de ce site sont stockées dans le dossier <code>data/</code> au format CSV. Modifiez un fichier, publiez-le, et le site comme le PDF se mettent à jour.</p>
+    </footer>
+  </main>
+
+  <script src="assets/vendor/papaparse.min.js"></script>
+  <script src="assets/vendor/pdfmake.min.js"></script>
+  <script src="assets/vendor/vfs_fonts.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

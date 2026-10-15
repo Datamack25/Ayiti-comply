@@ -1,0 +1,9 @@
+typologie,description,signaux_alerte,niveau
+Enlèvements contre rançon,Paiements de rançons collectés en espèces ou via transferts et mobile money,Transferts urgents et fractionnés depuis la diaspora vers des bénéficiaires inconnus ; retraits immédiats,Élevé
+Trafic d'armes et de munitions,Armes acheminées principalement depuis l'étranger par voie maritime et conteneurs,"Importations sous-déclarées, expéditeurs sans activité cohérente, paiements tiers",Élevé
+Trafic de stupéfiants,"Eaux territoriales peu surveillées, point de transit vers l'Amérique du Nord","Dépôts d'espèces importants sans justificatif, activité portuaire ou maritime atypique",Élevé
+Corruption et détournement de fonds publics,Infraction sous-jacente majeure selon le FMI (diagnostic de gouvernance 2025),"PPE, marchés publics, sociétés écrans, biens immobiliers acquis en espèces",Élevé
+Fraude commerciale (TBML),Surfacturation ou sous-facturation d'importations et de marchandises,"Écarts entre prix déclarés et prix de marché, intermédiaires dans des juridictions tierces",Moyen
+Contrebande et carburant,Trafics à la frontière dominicaine et sur les produits pétroliers,"Flux en espèces liés à des points frontaliers, sociétés de transport opaques",Moyen
+Mules de mobile money,Comptes de portefeuille mobile utilisés pour fractionner et déplacer des fonds,"Nombreux comptes reliés, plafonds atteints en série, agents concentrant des flux",Moyen
+Économie de l'espèce,"Forte circulation du cash et du dollar, faible bancarisation",Opérations en espèces en USD sans source documentée,Moyen

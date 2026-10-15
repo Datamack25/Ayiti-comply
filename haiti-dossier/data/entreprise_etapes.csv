@@ -1,0 +1,13 @@
+ordre,etape,organisme,detail,documents,delai_indicatif
+1,S'orienter auprès du CFI,Centre de facilitation des investissements (CFI),"Guichet d'accompagnement des investisseurs, en particulier étrangers : orientation, formulaires de conformité, suivi du dossier","Pièce d'identité ou passeport, présentation du projet",1 à 2 jours
+2,Vérifier et réserver la dénomination,Ministère du Commerce et de l'Industrie (MCI),Contrôle de l'unicité du nom commercial,Proposition de dénomination,Quelques jours
+3,Obtenir le NIF des fondateurs,Direction générale des impôts (DGI),Chaque associé et administrateur doit disposer d'un numéro d'identification fiscale,"Pièce d'identité, justificatif d'adresse",1 à 3 jours
+4,Rédiger et faire authentifier les statuts,Notaire,"Statuts, liste des souscripteurs, nomination des administrateurs ; acte notarié exigé pour la SA","Statuts, pièces d'identité, NIF des associés",Variable
+5,Déposer le capital,Banque commerciale,Dépôt du capital sur un compte bloqué ; la banque délivre une attestation de dépôt,"Statuts, attestation de souscription",Quelques jours
+6,Déposer le dossier d'enregistrement,MCI,"Requête au ministre, dépôt en trois exemplaires ; le MCI enregistre la société et délivre l'autorisation de fonctionner","Requête, statuts, formulaire de conformité, vignette, reçus de paiement",Environ 4 jours pour l'enregistrement
+7,Publier au journal officiel Le Moniteur,Presses nationales d'Haïti,Publication de l'avis de constitution et des statuts (obligatoire pour la SA),"Exemplaire du dossier, reçu de paiement de la publication",1 à 4 semaines
+8,Immatriculer la société au fisc,DGI,"NIF de la société, carte d'identité professionnelle (CIP) et patente","Copie du Moniteur, autorisation du MCI, formulaire DGI selon la forme",Quelques jours
+9,Débloquer le capital,Banque commerciale,"Après paiement des droits et taxes, la société peut demander le déblocage du capital déposé",Preuve d'enregistrement et quitus fiscal,Quelques jours
+10,Déclarer l'entreprise comme employeur,ONA et OFATMA,Affiliation à l'assurance vieillesse (ONA) et à l'assurance accidents du travail et maladie (OFATMA),"Documents de la société, liste du personnel",Variable
+11,Obtenir les licences sectorielles,Ministère ou autorité de tutelle,"Agrément spécifique pour les activités réglementées : banque et transfert (BRH), agence de voyages, maison de transfert (MEF), etc.",Selon le secteur,Variable
+12,Mettre en place la conformité,Entreprise,"Tenue comptable, déclarations fiscales, registre des bénéficiaires effectifs, dispositif LBC/FT si l'activité est assujettie",Procédures internes,Continu

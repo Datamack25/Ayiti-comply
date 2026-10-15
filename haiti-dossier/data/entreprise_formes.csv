@@ -1,0 +1,7 @@
+forme,nom_complet,associes,responsabilite,pour_qui
+SA,Société anonyme,7 actionnaires minimum selon le Code de commerce,Limitée aux apports,"Projets d'envergure, investisseurs étrangers ; seule forme publiée au Moniteur"
+SARL,Société à responsabilité limitée,Plusieurs associés,Limitée aux apports,PME et projets entre associés
+SNC,Société en nom collectif,2 associés minimum,Illimitée et solidaire,"Associés de confiance, petites structures"
+SCS,Société en commandite simple,2 associés minimum (commandités et commanditaires),Mixte,Apporteurs de fonds non gérants
+EI,Entreprise individuelle,1 personne,"Illimitée, sur le patrimoine personnel",Commerçant ou indépendant seul
+Succursale,Succursale de société étrangère,Société mère étrangère,Celle de la société mère,Groupes étrangers souhaitant opérer sur place
